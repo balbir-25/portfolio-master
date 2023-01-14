@@ -1,0 +1,718 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  background-color: lightgray;
+  padding: 20px 30px;
+}
+
+/* =============================START MAIN AREA========================================= */
+
+.profile {
+width: 100%;
+}
+
+/* =======================================START INFO SECTION AREA=========================== */
+
+.info {
+  background: #ffffff;
+  border-radius: 12px;
+  width: 90%;
+  height: 270px;
+  float: left;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.profile-img{
+    float: left;
+    width: 30%;
+}
+
+.main-img {
+  width: 271.86px;
+  height: 266.14px;
+  border-radius: 32px;
+  padding: 20px; 
+}
+
+.profile-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+ padding: 10px;
+ align-items: center;
+
+ 
+}
+
+.info-h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4f4f4f;
+  width: 164.46px;
+  height: 29px;
+}
+
+.info-h6 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  width: 192.04px;
+  color: #828282;
+  margin-top: -15px;
+  height: 22px;
+}
+
+.info-para {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+  width: 70%;
+ height: 110px;
+ margin-top: -20px;
+ padding: 10px;
+ margin-left: 10px;
+}
+
+.info-para2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+  width: 70%;
+ height: 110px;
+ margin-top: -70px;
+ padding:10px;
+ margin-left: 10px;
+}
+
+.email-h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+    height: 22px;    
+}
+
+.phone-h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+    height: 22px;
+    margin-top: -20px;
+}
+
+.info-contact span{
+     padding-right: 20px;
+}
+
+/* =======================================START SKILLS SECTION AREA=========================== */
+
+
+.skills{
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+}
+
+.skill-content{
+    margin-top: 65px;
+    padding: 20px;
+    height: 100%;
+    width: 415px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.skill-h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+    width: 120.56px;
+    height: 23.47px;
+}
+
+.skill-detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skill-h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+    width: 87.49px;
+    height: 21.34px;
+}
+
+.skill-bar{
+    height: 10px;
+    background-color: #4F4F4F;
+    width: 200px;
+    margin-left: 50px;
+    border-radius: 12px;
+}
+
+.react{
+    background-color: #2f80ed;
+    width: 70%;
+    height: 10px;
+    border-radius: 12px;
+}
+.javascript{
+    background-color: #2f80ed;
+    width: 80%;
+    height: 10px;
+    border-radius: 12px;
+}
+.css{
+    background-color: #2f80ed;
+    width: 90%;
+    height: 10px;
+    border-radius: 12px;
+}
+.vue{
+    background-color: #2f80ed;
+    width: 60%;
+    height: 10px;
+    border-radius: 12px;
+}
+.redux{
+    background-color: #2f80ed;
+    width: 75%;
+    height: 10px;
+    border-radius: 12px;
+}
+.native{
+    background-color: #2f80ed;
+    width: 85%;
+    height: 10px;
+    border-radius: 12px;
+}
+.figma{
+    background-color: #2f80ed;
+    width: 80%;
+    height: 10px;
+    border-radius: 12px;
+}
+.photoshop{
+    background-color: #2f80ed;
+    width: 90%;
+    height: 10px;
+    border-radius: 12px;
+}
+
+/* ==========================================START PROJECT SECTION AREA============================== */
+
+.projects{
+    margin-top: 50px;
+    float: right;
+    width: 50%;
+}
+
+.project-h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+    width: 95%;
+    padding: 12px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    align-items: center;
+
+}
+
+.project-items{
+    margin-top: 50px;
+    width: 95%;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+.project-img{
+    width: 322px;
+    height: 274px;
+    border-radius: 12px;
+}
+
+.item-hashtag{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+
+.item-h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.item-para{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    width:60%;
+    margin-left: 150px;
+}
+
+.item-btn{
+    width: 15%;
+    background: #2F80ED;
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+   
+}
+
+.project-btn :nth-child(2){
+    background-color: darkorange;
+    margin-left: 20px;
+}
+
+.item-btn a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.item-btn:hover{
+    background-color: seagreen;
+}
+
+.item-btn a:hover{
+    color: black;
+}
+
+/* ==========================================START EXPRERIENCE SECTION AREA==================== */
+
+.experience{
+    float: left;
+    width: 45%;
+    margin-top: 50px;
+    background: #FFFFFF;
+    height: auto;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.experience-h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight:700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+    margin-left: 20px;
+}
+
+.experience-item{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: fit-content;
+    height: auto;
+    margin-top: 10px;
+}
+
+.experience-h6{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+.experience-h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    margin-top: -25px;
+}
+
+.experience-para{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.experience-details{
+    margin-left: 20px;
+}
+
+.experience-img{
+    width: 84px;
+    height: 84px;
+    margin-top: 20px;
+}
+
+/* ============================================START HOBBIES SECTION AREA========================= */
+
+.hobbies{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.hobbies-img{
+    width: 90%;
+    height: 139px;
+    border-radius: 12px;
+}
+
+.hobbies-h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+    margin-left: 50px;
+}
+
+.hobbies-h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.hobbies-para{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+/* ==================================START BLOG SECTION AREA================================ */
+
+.blogs{
+ width: 65%;
+ height: auto;
+ float: right;
+ padding: 20px;
+}
+
+.blog-h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+    width: 95%;
+    padding: 12px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.blog{
+    background: #FFFFFF;
+    border-radius: 12px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.blog-img{
+    width: 267px;
+    height: 267px;
+    border-radius: 12px;
+}
+
+.blog-h6{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E0E0E0;
+    margin-top: -3px;
+}
+
+.blog-h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    width: 178px;
+}
+
+.blog-para{
+    width: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.blog-a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2F80ED;
+    text-decoration: none;
+}
+
+/* =============================END MAIN AREA========================================= */
+
+/* =================================START FOOTER AREA=============================== */
+
+.foot{
+    margin-top: 50px;
+    padding: 20px;
+    height: auto;
+    width: 90%;
+    float: left;
+}
+
+.foot p, .foot a{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    color: #000000;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+/* ====================================END FOOTER AREA================================= */
+
+/* ==================================START MEDIA QUERRY================================ */
+
+/* ===================================1000PX MEDIA QUERRY==============================  */
+
+@media screen and (max-width:1000px) {
+    
+body{
+    padding: 20px 10px;
+}
+
+.profile-name, .info-para2, .info-para{
+    padding-left: 20px;
+}
+}
+
+/* ======================================900PX MEDIA QUERRY======================== */
+
+@media screen and (max-width:900px) {
+
+    .info{
+        height: auto;
+    }
+
+    .profile-img{
+        width: 90%;
+        justify-content: center;
+        text-align: center; 
+    }
+
+    .profile-name{
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: center;
+       padding: 0px 20px 0px 20px;
+    }
+
+    .skills, .info{
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    .item-para{
+       margin-left: 70px;
+    }
+
+    .project-img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .item-btn{
+       width: 30%;
+    }
+
+    .blogs{
+        float: left;
+        width: 100%;
+    }
+
+    .info-para, .info-para2{
+        width: 100%;
+    }
+
+    .hobbies-h2{
+        margin-left: 10px;
+    }
+}
+
+/* ============================================600PX MEDIA QUERRY============================ */
+
+@media screen and (max-width:600px) {
+    .profile-name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .info-contact{
+        margin-top: -60px;
+    }
+
+    .info-para, .info-para2{
+        margin-top: 20px;
+    }
+
+    .phone-h5{
+        margin-top: 20px;
+    }
+
+    .skills, .experience, .hobbies, .projects{
+        width: 95%;
+        text-align: center;
+        justify-content: center;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .blog{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog-h2{
+        width: auto;
+    }
+
+    .blog-img{
+        margin-top: 50px;
+    }
+
+    .experience-item{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+}
+
+/* ===================================400PX MEDIA QUERRY============================== */
+
+@media screen and (max-width:400px) {
+    .blog-img{
+        width:90%;
+        height: auto;
+    }
+
+     .item-para{
+        margin-left: 10px;
+     } 
+
+    .info, .hobbies, .blog, .experience, .projects, .skills .foot{
+        margin-left: 0px;
+        margin-right: 0px;
+        height: auto;
+        width: auto;
+    }
+
+    .skills{
+        margin-left: 5px;
+    }
+
+    .skill-detail{
+        width: 95%;
+    }
+
+    .main-img{
+        width: 90%;
+    }
+
+    .project-btn{
+        width: 100%;
+    }
+
+    .foot p, .foot a{
+        font-weight: 100;
+        font-size: small;
+        width: auto;
+    }
+
+}
+
+
+/* ==================================END MEDIA QUERRY================================ */
